@@ -1,7 +1,9 @@
-/* * {
-    border: 1px solid grey;
+ * {
+    /*border: 1px solid grey;*/
     max-width: 100%;
-} */
+    font-size:1rem;
+    box-sizing:border-box;
+}
 .ball {
     position: absolute;
     border-radius: 100%;
@@ -10,48 +12,62 @@
 .head-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-evenly;
     height: 100vh;
     width: 100vw;
+    background:-color: #fff;
+}
+div.portfolio a {
+    height: 200px;
+    margin: 20px 0px;
 }
 .portfolio {
     display:flex;
     flex-direction:row;
     justify-content: space-around;
+    align-content: flex-start;
     flex-wrap: wrap;
-    height: 400px;
+    height: auto;
+    min-height: 100% !important;
 }
 .portfolio img {
-
+}
+body {
+    height: 100vh
 }
 nav {
-    margin: 40px 0px;
+    margin: 20px 0px;
 }
 nav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: forestgreen;
     margin: 0px 10px;
     padding: 0px 5px;
 }
 h1 {
-    margin: 40px 10px;
+    
+    margin: 20px 10px;
     padding: 0px 5px;
 }
 header p {
-    margin: 40px 10px;
+    margin: 20px 10px;
     padding: 0px 5px;
 }
 header div {
-    padding:40px;
+    padding:20px;
     height: 100vh;
     width: 60vw;
 }
 header aside {
-    padding:40px;
+    padding:20px;
     height: 100vh;
     width: 40vh;
 }
 aside{
-    margin: 40px 10px;
+    margin: 20px 10px;
     padding: 0px 5px;
 }
 aside h2 {
